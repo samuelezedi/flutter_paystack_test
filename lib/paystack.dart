@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 
 String backendUrl = 'https://samuelezedi.com/paystacktest.php';
 // Set this to a public key that matches the secret key you supplied while creating the heroku instance
-String paystackPublicKey = 'pk_live_03e42f3c402e36f481703a6fdf95572d09d10d37';
+String paystackPublicKey = '';
 const String appName = 'Paystack Example';
 
 class PayStackTest extends StatefulWidget {
